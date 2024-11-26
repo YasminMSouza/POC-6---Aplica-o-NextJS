@@ -28,7 +28,7 @@ src/
 ```
 # 📖  **Descrição dos Arquivos**
 ## 1. **Estilos Globais (globals.css)**
-Define os temas Light e Dark, aplicando estilos dinâmicos com variáveis CSS. A alternância ocorre automaticamente ou manualmente por meio do componente DarkMode.**
+**Define os temas Light e Dark, aplicando estilos dinâmicos com variáveis CSS. A alternância ocorre automaticamente ou manualmente por meio do componente DarkMode.**
 
 Exemplo de código:
 ```
