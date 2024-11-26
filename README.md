@@ -27,7 +27,7 @@ src/
 
 ```
 # 📖  **Descrição dos Arquivos**
-## 1. **Estilos Globais (globals.css)
+## 1. **Estilos Globais (globals.css)**
 Define os temas Light e Dark, aplicando estilos dinâmicos com variáveis CSS. A alternância ocorre automaticamente ou manualmente por meio do componente DarkMode.**
 
 Exemplo de código:
@@ -115,7 +115,7 @@ export default Lugar;
 }
 ```
 
-## **3. Botão de Compra (BotaoCompra.jsx e BotaoCompra.module.css)
+## **3. Botão de Compra (BotaoCompra.jsx e BotaoCompra.module.css)**
 **Este componente exibe o botão de compra e o total acumulado.**
 
 Props:
@@ -246,7 +246,7 @@ export default function HomePage() {
 ```
 
 ## **6. Dados do Filme (filme.json)
-O arquivo JSON contém as informações do filme e o estado inicial dos assentos.**
+**O arquivo JSON contém as informações do filme e o estado inicial dos assentos.**
 
 Exemplo:
 
