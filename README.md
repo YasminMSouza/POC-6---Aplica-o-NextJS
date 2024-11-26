@@ -1,1 +1,1 @@
-# POC-6---Aplica-o-NextJS
+# POC-6 Aplicação em NextJS 
