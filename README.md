@@ -1,7 +1,7 @@
 # 🎥 POC6 - Aplicação em NextJS 
 
 # 📋  **Descrição Geral**
-**O projeto é um sistema de reserva de assentos para cinemas que permite:
+**O projeto é um sistema de reserva de assentos para cinemas que permite:**
  
 - Selecionar e reservar assentos.
 - Alternar automaticamente entre modo Light e Dark com base na preferência do sistema operacional, com opção manual.
