@@ -245,7 +245,7 @@ export default function HomePage() {
 
 ```
 
-## **6. Dados do Filme (filme.json)
+## **6. Dados do Filme (filme.json)**
 **O arquivo JSON contém as informações do filme e o estado inicial dos assentos.**
 
 Exemplo:
