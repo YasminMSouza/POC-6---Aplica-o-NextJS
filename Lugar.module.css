@@ -1,0 +1,18 @@
+.lugar {
+  width: 25px;
+  height: 25px;
+  background-color: var(--corlivre);
+  border: 1px solid #343434;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.selecionado {
+  background-color: var(--corselecionado);
+}
+
+.reservado {
+  background-color: var(--corindisponivel);
+  cursor: not-allowed;
+}

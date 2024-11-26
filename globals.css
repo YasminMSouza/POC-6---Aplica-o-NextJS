@@ -1,0 +1,181 @@
+/* Tema padrão (Light Mode) */
+:root {
+  --background-color: #fbfbfb;
+  --text-color: #050f1f;
+  --corselecionado: #229a00;
+  --corindisponivel: #ff0000;
+  --corlivre: #dcdcdc;
+}
+
+/* Tema Dark Mode */
+.dark {
+  --background-color: #0c081e;
+  --text-color: #fbfbfb;
+  --corselecionado: #229a00;
+  --corindisponivel: #ff0000;
+  --corlivre: #f5f5f5;
+}
+
+/* Aplica o Dark Mode automaticamente com base na preferência do sistema */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #0c081e;
+    --text-color: #fbfbfb;
+    --corselecionado: #9c291f;
+    --corindisponivel: #4c4c4c;
+    --corlivre: #fbfbfb;
+  }
+}
+
+/* Estilo Global */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.tela {
+  background-color: #bababa;
+  width: 200px;
+  height: 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0;
+  margin: 0 auto;
+  margin-left: 100px;
+}
+
+.subtitulo {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 0;
+  width: 100vh;
+}
+.info {
+  flex: 1;
+  max-width: 350px;
+}
+.info h6 {
+  font-size: 17px;
+  font-weight: bold;
+}
+.info p {
+  font-size: 13px;
+  line-height: 1.4;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 400px;
+}
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.lugaresGrid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  margin-top: 20px;
+  width: 100%;
+  max-width: 275px;
+  margin: 0 auto;
+  padding: 0;
+  gap: 8px;
+  justify-content: center;
+}
+
+.lugaresGrid::after {
+  content: "";
+  grid-column: span 2;
+}
+
+.lugaresGrid > :nth-last-child(4) {
+  grid-column-start: 3;
+}
+
+h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.legenda {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.legenda ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.legenda li {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.legenda span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 4px;
+}
+
+.assento-livre {
+  background-color: var(--corlivre);
+  border-radius: 16px;
+  border: solid 2px #2a2a2a;
+}
+
+.assento-indisponivel {
+  background-color: var(--corindisponivel);
+  border-radius: 10px;
+  border: solid 2px #2a2a2a;
+}
+
+.assento-selecionado {
+  background-color: var(--corselecionado);
+  border-radius: 10px;
+  border: solid 2px #2a2a2a;
+}
+.purchase-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .info {
+    display: none;
+  }
+}
