@@ -1,6 +1,6 @@
 # 🎥 POC6 - Aplicação em NextJS 
 
-📋 **Descrição Geral**
+📋 # **Descrição Geral**
 **O projeto é um sistema de reserva de assentos para cinemas que permite:
  
 - Selecionar e reservar assentos.
@@ -8,7 +8,7 @@
 - Exibir informações sobre o filme selecionado.
 - Calcular o total da compra em tempo real.
 
-📂 **Estrutura do Projeto**
+📂 # **Estrutura do Projeto**
 ```
 src/
 ├── app/
@@ -26,8 +26,8 @@ src/
 │   ├── filme.json
 
 ```
-📖 **Descrição dos Arquivos**
-1. **Estilos Globais (globals.css)
+📖 # **Descrição dos Arquivos**
+## 1. **Estilos Globais (globals.css)
 Define os temas Light e Dark, aplicando estilos dinâmicos com variáveis CSS. A alternância ocorre automaticamente ou manualmente por meio do componente DarkMode.**
 
 Exemplo de código:
@@ -55,8 +55,8 @@ body {
 }
 ```
 
-**2. Componente de Assento (Lugar.jsx e Lugar.module.css)
-O componente Lugar renderiza cada assento, permitindo sua seleção ou bloqueio, com base na disponibilidade. Ele utiliza classes CSS dinâmicas.**
+## **2. Componente de Assento (Lugar.jsx e Lugar.module.css)**
+**O componente Lugar renderiza cada assento, permitindo sua seleção ou bloqueio, com base na disponibilidade. Ele utiliza classes CSS dinâmicas.**
 
 Props:
 - reservado (boolean): Indica se o assento já está reservado.
@@ -115,8 +115,8 @@ export default Lugar;
 }
 ```
 
-**3. Botão de Compra (BotaoCompra.jsx e BotaoCompra.module.css)
-Este componente exibe o botão de compra e o total acumulado.**
+## **3. Botão de Compra (BotaoCompra.jsx e BotaoCompra.module.css)
+**Este componente exibe o botão de compra e o total acumulado.**
 
 Props:
 - total (número): Preço total dos assentos selecionados.
@@ -162,8 +162,8 @@ export default BotaoCompra;
 
 ```
 
-**4. Dark Mode (DarkMode.jsx e DarkMode.module.css)
-O componente DarkMode permite alternar manualmente entre os modos Light e Dark.**
+## **4. Dark Mode (DarkMode.jsx e DarkMode.module.css)**
+**O componente DarkMode permite alternar manualmente entre os modos Light e Dark.**
 
 Exemplo de código:
 
@@ -195,8 +195,8 @@ export default function DarkMode() {
 
 ```
 
-**5. Página Principal (page.tsx)
-A página principal utiliza os componentes criados para renderizar o filme, os assentos e o botão de compra.**
+## **5. Página Principal (page.tsx)**
+**A página principal utiliza os componentes criados para renderizar o filme, os assentos e o botão de compra.**
 
 Exemplo de código:
 
@@ -245,7 +245,7 @@ export default function HomePage() {
 
 ```
 
-**6. Dados do Filme (filme.json)
+## **6. Dados do Filme (filme.json)
 O arquivo JSON contém as informações do filme e o estado inicial dos assentos.**
 
 Exemplo:
