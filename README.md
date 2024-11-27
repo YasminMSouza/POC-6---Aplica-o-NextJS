@@ -295,7 +295,9 @@ npm run dev
 | --- | --- | --- | --- |
 | [Yasmin Mendes](https://github.com/YasminMSouza) | [Bruna Zakaib](https://github.com/brunazpessoa) | [Isabela Realli](https://github.com/IsabelaReali) | [Beatriz Soares](https://github.com/Beatriz-sol) |
 
-Licença 📝
+
+### Licença 📝
+
 Esse projeto está autorizado pelo MIT
 
 
