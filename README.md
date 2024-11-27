@@ -275,6 +275,10 @@ npm run dev
 - Alteração entre modos Light e Dark.
 - Exibição do preço total e funcionalidade do botão de compra.
 
+## Resultado 
+**Light Mode**
+
+**Dark Mode**
 
 
 
