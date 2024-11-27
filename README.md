@@ -283,8 +283,7 @@ npm run dev
 
 **Dark Mode**
 <p align="center" width="700">
-    <img width="700" src="
-cb315356-08ed-41ac-b9e6-e3a34924aa70.jpg">
+    <img width="700" src="cb315356-08ed-41ac-b9e6-e3a34924aa70.jpg">
 </p>
 
 
